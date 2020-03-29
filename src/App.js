@@ -124,21 +124,20 @@ export default class App extends Component {
     render() {
         return (
             <div className="App container">
-                <h2>Flair selector for /r/Jailbreak and /r/iOSThemes</h2>
+                <h2>Flair selector for r/jailbreak and r/iOSthemes</h2>
                 <p>
-                    <strong>The bot is online and will run every 20 minutes</strong>
+                    <strong>The bot is online and will run every 10 minutes</strong>
                 </p>
                 <p>
-                    This tool uses the /u/JailBreakFlairBot Reddit bot which
-                    assists <a href="http://reddit.com/r/jailbreak">/r/jailbreak</a> and <a href="http://reddit.com/r/iosthemes/">/r/iOSThemes</a> in
+                    This tool uses the u/JailBreakFlairBot Reddit bot which
+                    assists <a href="http://reddit.com/r/jailbreak">r/jailbreak</a> and <a href="http://reddit.com/r/iosthemes/">r/iOSthemes</a> in
                     creating custom flairs. Below, you may select the device and iOS
                     version of your primary device. The page will re-direct you to send a message to the bot. All you need to do after logging into
                     your reddit account, is hit send. If you edit anything in the message, the bot will not understand your request and your flair will be rejected.
                 </p>
                 <p>
-                    <strong>Developers & Designers:</strong> Please be aware that if you have Developer flair and submit 'Both' or 'Jailbreak Only',
-                    your Developer flair will be replaced with your new flair. Similarly, your Designer flair will be replaced with your new flair if
-                    you submit 'iOSthemes Only' or 'Both'. <br />If you have released a tweak on a default repository and would like Developer flair,
+                    <strong>Developers & Designers:</strong> Please be aware that if you have Developer flair and submit using this website,
+                    your Developer flair will be replaced with your new flair. Similarly, your Designer flair will be replaced with your new flair. <br />If you have released a tweak on a default repository and would like Developer flair,
                     please <a rel="noopener noreferrer" target="_blank" href={`http://www.reddit.com/message/compose?to=%2Fr%2Fjailbreak&subject=Developer%20Flair%20Request%20${_.random(100000)}`}>message the moderators</a> with
                     links to the package depiction as proof. If you have released a theme on a default repository and would like Designer flair,
                     please <a rel="noopener noreferrer" target="_blank" href={`http://www.reddit.com/message/compose?to=%2Fr%2FiOSthemes&subject=Designer%20Flair%20Request%20${_.random(100000)}`}>message the moderators</a> with
